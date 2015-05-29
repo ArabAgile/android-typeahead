@@ -19,7 +19,7 @@ Final structure should be as:
   - /settings.gradle
 
 - Edit /settings.gradle ; add the following:
-```
+```groovy
 include ':typeahead'
 project(':typeahead').projectDir = new File('libraries/typeahead')
 ```
@@ -112,7 +112,6 @@ You can set the threshold - the number of charcaters after at sign (@) before th
  
 
 ## License
-----
 
 MIT
 
