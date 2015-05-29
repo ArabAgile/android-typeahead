@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TypeaheadTextView">
+
+        <!-- Set the min number of characters before dropdown menu appears -->
+        <attr name="ag_threshold" format="integer"/>
+
+    </declare-styleable>
+
+</resources>
