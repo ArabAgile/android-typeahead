@@ -24,7 +24,7 @@ include ':typeahead'
 project(':typeahead').projectDir = new File('libraries/typeahead')
 ```
 - Edit /app/build.gradle file ; add the following to dependencies section:
-```
+```groovy
 compile project(':typeahead')
 ```
 - Sync project
